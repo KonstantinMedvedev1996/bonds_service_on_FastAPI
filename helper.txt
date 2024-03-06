@@ -8,4 +8,9 @@ pip install sqlalchemy alembic psycopg2
 pip install sqlalchemy alembic psycopg2-binary (MAC, Ubuntu)
 
 alembic init migrations
+alembic revision --autogenerate -m "Database creation"
+alembic upgrade cbe03401fd9d
 
+pip install fastapi-users[sqlalchemy]
+
+pip install asyncpg
