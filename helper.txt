@@ -6,3 +6,6 @@ http://127.0.0.1:8000/docs
 
 pip install sqlalchemy alembic psycopg2
 pip install sqlalchemy alembic psycopg2-binary (MAC, Ubuntu)
+
+alembic init migrations
+
